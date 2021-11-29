@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AUTH_URL = "https://accounts.spotify.com/authorize?client_id=fa944ccfaef84336993533dadd2ef4e6&response_type=code&redirect_uri=https://soundhousev1.netlify.app/&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state"
+const AUTH_URL = "https://accounts.spotify.com/authorize?client_id=fa944ccfaef84336993533dadd2ef4e6&response_type=code&redirect_uri=https://soundhousev1.netlify.app&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state"
 
 export default function Authorize() {
 

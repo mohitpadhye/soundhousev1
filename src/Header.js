@@ -10,6 +10,7 @@ export default function Header() {
     const dispatch = useDispatch();
 
     const logoutOfApp = () => {
+        // Could wait for a few seconds before action is done.
         db.collection("activeUsers").doc(user.displayName).set({
             name: user.displayName,
             description: user.email,
